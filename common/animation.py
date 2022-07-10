@@ -1,8 +1,8 @@
 import time
 import sys
 
-def animation(runtime):
-	print("Decoding...:")
+def animation(runtime, string):
+	print(string)
 	animation = ["[■□□□□□□□□□]","[■■□□□□□□□□]", "[■■■□□□□□□□]", "[■■■■□□□□□□]", "[■■■■■□□□□□]", "[■■■■■■□□□□]", "[■■■■■■■□□□]", \
 		"[■■■■■■■■□□]", "[■■■■■■■■■□]", "[■■■■■■■■■■]"]
 

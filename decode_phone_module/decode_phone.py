@@ -22,7 +22,7 @@ def find_phone(string):
 		except Exception as e:
 			continue
 	end = time.time()
-	animation(end-start)
+	animation(end-start, 'Decoding...')
 	return decoded_num
 
 def main():

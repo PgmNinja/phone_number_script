@@ -17,7 +17,7 @@ def encode_phone(num, string):
     for i in range(int(num)):
         encoded_num = encode_base64(encoded_num)
     end = time.time()
-    animation(end-start)
+    animation(end-start, 'Encoding...')
     return encoded_num
 
 def main():
