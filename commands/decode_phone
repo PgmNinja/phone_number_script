@@ -1,0 +1,1 @@
+cd $HOME/.nir_scripts/decode_phone_module && python3 decode_phone.py
